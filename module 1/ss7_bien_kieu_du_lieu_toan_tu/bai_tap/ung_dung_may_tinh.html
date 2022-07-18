@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title> Ứng dụng máy tính</title>
+</head>
+<body>
+<table>
+    <tr>
+        <td><input type="text" id="B1"></td>
+        <td><input type="text" id="B2"></td>
+    </tr>
+</table>
+<table>
+    <tr>
+        <td><button type="button" id="cong" onclick="add()">Addition(+)</button></td>
+        <td><button type="button" id="tru" onclick="minus()">Subtraction(-)</button></td>
+        <td><button type="button" id="nhan" onclick="time()">Multiplication(x)</button></td>
+        <td><button type="button" id="chia" onclick="divide()">Division(/)</button></td>
+    </tr>
+</table>
+<label id="result">Result:</label>
+<script>
+    function add() {
+        let bl1 = document.getElementById("B1").value;
+        let  bl2= document.getElementById("B2").value;
+        let ans = parseInt(bl1)+parseInt(bl2);
+        document.getElementById("result").innerHTML= "result" + ans;
+    }
+</script>
+<script>
+    function minus() {
+        let bl1 = document.getElementById("B1").value;
+        let bl2 = document.getElementById("B2").value;
+        let ans = parseInt(bl1)-parseInt(bl2);
+        document.getElementById("result").innerHTML= "result" + ans;
+    }
+</script>
+<script>
+    function time() {
+        let bl1 = document.getElementById("B1").value;
+        let bl2 = document.getElementById("B2").value;
+        let ans = parseInt(bl1)*parseInt(bl2);
+        document.getElementById("result").innerHTML= "result" + ans;
+    }
+</script>
+<script>
+    function divide() {
+        let bl1 = document.getElementById("B1").value;
+        let bl2 = document.getElementById("B2").value;
+        let ans = parseInt(bl1)/parseInt(bl2);
+        document.getElementById("result").innerHTML= "result" + ans;
+    }
+</script>
+
+</body>
+</html>
