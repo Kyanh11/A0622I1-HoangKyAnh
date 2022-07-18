@@ -20,10 +20,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bb020e61-4c11-45f6-832b-c81f82e12f21" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/bai_tap/tao_form_lay_survey_khach_hang.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ss7_bien_kieu_du_lieu_toan_tu/bien_kieu_du_lieu_va_toan_tu.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ss7_bien_kieu_du_lieu_toan_tu/ung_dung_chuyen_doi_tien_te.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bai_tap/tao_form_don_gian.html" beforeDir="false" afterPath="$PROJECT_DIR$/bai_tap/tao_form_don_gian.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ss7_bien_kieu_du_lieu_toan_tu/bien_kieu_du_lieu_va_toan_tu.html" beforeDir="false" afterPath="$PROJECT_DIR$/../ss7_bien_kieu_du_lieu_toan_tu/bien_kieu_du_lieu_va_toan_tu.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ss7_bien_kieu_du_lieu_toan_tu/ung_dung_chuyen_doi_tien_te.html" beforeDir="false" afterPath="$PROJECT_DIR$/../ss7_bien_kieu_du_lieu_toan_tu/ung_dung_chuyen_doi_tien_te.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,7 +50,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/bai_tap/tao_form_don_gian.html" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../ss7_bien_kieu_du_lieu_toan_tu/bai_tap" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -63,7 +62,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1657715647918</updated>
-      <workItem from="1657715649128" duration="8483000" />
+      <workItem from="1657715649128" duration="12521000" />
     </task>
     <servers />
   </component>
@@ -82,10 +81,10 @@
     </option>
   </component>
   <component name="WindowStateProjectService">
-    <state x="421" y="92" key="FileChooserDialogImpl" timestamp="1657715671028">
+    <state x="421" y="92" key="FileChooserDialogImpl" timestamp="1657810067375">
       <screen x="0" y="0" width="1280" height="672" />
     </state>
-    <state x="421" y="92" key="FileChooserDialogImpl/0.0.1280.672@0.0.1280.672" timestamp="1657715671028" />
+    <state x="421" y="92" key="FileChooserDialogImpl/0.0.1280.672@0.0.1280.672" timestamp="1657810067375" />
     <state x="408" y="39" key="RollbackChangesDialog" timestamp="1657717412958">
       <screen x="0" y="0" width="1280" height="672" />
     </state>
