@@ -6,8 +6,23 @@
 </head>
 <body>
 <script>
+    let soa= prompt("Nhập số a ")
+    let a= parseInt(soa)
+    let sob= prompt("Nhập số b ")
+    let b= parseInt(sob)
+    let soc= prompt("Nhập số c ")
+    let c= parseInt(soc)
 
-  
+    if ( a >= b && a >= c) {
+        document.write("a có giá trị lớn nhất ")
+    }
+    else if (a <= b && b >= c) {
+        document.write("b có giá trị lớn nhất")
+    }
+    else if (a <= c && c >= b){
+        document.write("c có giá trị lớn nhất")
+    }
+
 </script>
 
 </body>
