@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bài 7</title>
+</head>
+<body>
+<script>
+    let cuocGoi= prompt("Nhập tổng cuộc gọi trong một tháng của gia đình")
+    let cg= parseInt(cuocGoi)
+    let thanhVien= prompt("Nhập số thành viên trong gia  sử dụng nhà mạng này")
+    let tv= parseInt(thanhVien)
+    if(tv == 1) {var uuDai = 0}
+    else if(tv == 2) {var uuDai = 5000}
+    else if (tv == 3) {var uuDai = 15000}
+    else if (tv >= 4) {var uuDai = 20000}
+    let tong= (cg * 7000 -uuDai)
+    alert("Cước điện thoại là"+ tong)
+</script>
+</body>
+</html>
