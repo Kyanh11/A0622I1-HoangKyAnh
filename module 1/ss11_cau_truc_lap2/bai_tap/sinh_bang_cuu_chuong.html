@@ -5,6 +5,21 @@
     <title>Sinh bảng cửu chương</title>
 </head>
 <body>
-
+<table border="1">
+    <tr id="1"></tr>
+    <tr id="2"></tr>
+    <tr id="3"></tr>
+    <tr id="4"></tr>
+    <tr id="5"></tr>
+    <tr id="6"></tr>
+    <tr id="7"></tr>
+    <tr id="8"></tr>
+    <tr id="9"></tr>
+    <script>
+        for (let soDau = 2;soDau<10;soDau ++){
+            document.write('<td>')
+            for (let tiepTheo =1; tiepTheo<=10; tiepTheo++)
+            {document.write(soDau + ' * ' + tiepTheo + ' = ' + (soDau*tiepTheo) + '<br>')}}
+    </script>
 </body>
 </html>
