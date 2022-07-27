@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bài 10</title>
+</head>
+<body>
+<script>
+    let dienDung= prompt("Nhập tổng số kWh đã dùng trong tháng ")
+    let d= parseInt(dienDung)
+    let thanhVien= prompt("Nhập số thành viên trong gia đình sử dụng nhà cung cấp này")
+    let tv= parseInt(thanhVien)
+    if(tv == 1) {var uuDai = 0}
+    else if(tv == 2) {var uuDai = 1000}
+    else if (tv == 3) {var uuDai = 2000}
+    else if (tv >= 4) {var uuDai = 30000}
+    let tong= (d * 4000 -uuDai)
+    alert("Giá điện là"+ tong +"VND")
+</script>
+</body>
+</html>
