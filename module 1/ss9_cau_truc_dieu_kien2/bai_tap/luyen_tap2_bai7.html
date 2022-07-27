@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bài 7</title>
+</head>
+<body>
+<script>
+    let a = parseInt(prompt('Nhập a'))
+    let b = parseInt(prompt('Nhập b'))
+    let c = parseInt(prompt('Nhập c'))
+    let ans1 = ((-1*b+ Math.sqrt ((b*b) - (4*a*c)))/ (2*a))
+    let ans2 = ((-1*b- Math.sqrt ((b*b) - (4*a*c)))/ (2*a))
+    if (a>0||a<0){
+        if (ans1==NaN || ans2==NaN){
+             alert('Đáp án là một số không có thậy')
+        }else{
+            alert('x bằng ' + ans1 + ' và ' + ans2)
+        }
+
+    }else if (a==0){
+        alert('Không phải là biểu thức bậc 2')
+    }
+</script>
+</body>
+</html>
