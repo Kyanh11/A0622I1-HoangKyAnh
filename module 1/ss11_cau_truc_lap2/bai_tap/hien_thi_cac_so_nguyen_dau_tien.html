@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Hiển thị các số nguyên đầu tiên</title>
+</head>
+<body>
+<script>
+    let count = prompt('Nhập số lượng cần ')
+    let amount = 0
+    let n = 2
+    while (amount<count){
+        let t=true;
+        for (let i=2; i<n; i++){
+            if(n%i==0){
+                t = false;
+                break;
+            }
+        }
+        if (t){
+            document.write(n + "<br>");
+            amount++;
+        }
+        n++;}
+</script>
+</body>
+</html>
