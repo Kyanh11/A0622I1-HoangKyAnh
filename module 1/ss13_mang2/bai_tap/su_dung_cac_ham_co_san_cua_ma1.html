@@ -2,9 +2,41 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>$Title$</title>
+    <title>Bài 1</title>
 </head>
 <body>
-$END$
+<script>
+    // Bai 1
+    colors = ["Red", "Green", "White", "Black"];
+    console.log(colors.toString());
+    console.log(colors.join());
+    console.log(colors.join('+'));
+    // Bai 2
+    const num=window.prompt("Nhập số");
+    const str = num.toString();
+    const result = [str[0]];
+    for(let i=1; i<str.length; i++)
+    {if((str[i-1]%2 === 0)&&(str[i]%2 === 0))
+        {result.push('-', str[i]);}
+        else
+        {result.push(str[i]);}}
+    console.log(result.join(''));
+    // Bai 3
+    var str = 'c';
+    var UPPER = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    var LOWER = 'abcdefghijklmnopqrstuvwxyz';
+    var result = [];
+
+    for(var x=0; x<str.length; x++)
+    {if(UPPER.indexOf(str[x]) !== -1)
+        {result.push(str[x].toLowerCase());}
+        else if(LOWER.indexOf(str[x]) !== -1)
+        {result.push(str[x].toUpperCase());}
+        else
+        {result.push(str[x]);}}
+    console.log(result.join(''));
+
+
+</script>
 </body>
 </html>
