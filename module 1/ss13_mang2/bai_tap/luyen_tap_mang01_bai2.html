@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bài 2</title>
+</head>
+<body>
+<script>
+let so = []
+let gtl = 0
+for (let i = 0; i <10 ; i++)
+{let a = +prompt('Nhập số')
+so.push(a)}
+for (let b = 0; b <so.length ; b++)
+{if (gtl<so[b]){gtl=so[b]}}
+alert ( 'So co gia tri lon nhat la ' + gtl + ', tim thay tai so'+so.indexOf(gtl))
+</script>
+</body>
+</html>
