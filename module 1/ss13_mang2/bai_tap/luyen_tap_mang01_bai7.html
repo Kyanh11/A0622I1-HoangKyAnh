@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bài 7</title>
+</head>
+<body>
+<script>
+    let so = []
+    for (let a = 0; a <10; a++)
+    {let b = +prompt('Nhập số')
+        so.push(b)}
+    let V= +prompt('Nhập V')
+    if (so.indexOf(V)>=0){
+        so.splice((so.indexOf(V)),1)
+        so.push(0)}
+    document.write(so)
+</script>
+</body>
+</html>
