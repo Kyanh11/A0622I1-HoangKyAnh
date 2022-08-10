@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Chuyển đổi giữa feet và meters</title>
+</head>
+<body>
+<input type="text" id="dl">
+<button onclick="tmt()">Đổi ra meters</button>
+<button onclick="tft()">Đổi ra feet</button>
+<p id="result"></p>
+<script>
+    function tmt(){
+        let so = document.getElementById('dl').value
+        let kq = 0.305 * so
+        document.getElementById('result').innerHTML = kq }
+
+    function tft(){
+        let so = document.getElementById('dl').value
+        let kq = 3.279 * so
+        document.getElementById('result').innerHTML = kq }
+</script>
+</body>
+</html>
