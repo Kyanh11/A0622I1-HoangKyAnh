@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bài 5</title>
+</head>
+<body>
+<script>
+    let sao = [ 'Polaris', 'Aldebaran', 'Deneb', 'Vega', 'Altair', 'Dubhe', 'Regulus']
+    let chomSao = ['Ursa Minor', 'Tarurus', 'Cygnus', 'Lyra', 'Aquila', 'Ursa Major', 'Leo']
+    let input = prompt('Nhập sao')
+    function timChom() {
+        if(chomSao[sao.indexOf(input)]===undefined){
+            let ketQua= "Chúng tôi sẽ tìm hiểu thêm về kết quả này"
+            return ketQua}
+        else{let ketQua = chomSao[sao.indexOf(input)]
+            return ketQua}}
+    alert(timChom())
+</script>
+</body>
+</html>
