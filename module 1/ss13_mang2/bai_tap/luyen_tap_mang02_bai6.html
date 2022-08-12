@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bài 6</title>
+</head>
+<body>
+<script>
+    let mangKyTu = prompt('Nhập mảng ký tự')
+    let amkt = mangKyTu.split('')
+    for (let a = 0; a < amkt.length ; a++)
+    {if (amkt[a]=='-'){
+            amkt.splice(a,1,'_')}}
+    alert(amkt.join(''))
+</script>
+</body>
+</html>
